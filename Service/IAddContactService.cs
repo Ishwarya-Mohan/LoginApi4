@@ -1,0 +1,12 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace LoginAPI1.Service
+{
+    public interface IAddContactService<Contact>
+    {
+        public void AddContact(Contact n);
+    }
+}
